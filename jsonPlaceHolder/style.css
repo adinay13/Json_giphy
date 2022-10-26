@@ -1,0 +1,33 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(26, 23, 31);
+}
+
+h3 {
+    color: green
+}
+
+p {
+    color: rgb(88, 146, 88);
+}
+
+.posts {
+    display: grid;
+
+}
+
+.post {
+    flex-direction: column;
+    border: 2px solid rgb(16, 4, 4);
+    background-color: black;
+    color: white;
+    max-width: 10%;
+}
